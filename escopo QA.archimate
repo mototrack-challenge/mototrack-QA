@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-455f4caa182a43e89f8b1dec0c72537c" version="5.0.0">
+  <folder name="Strategy" id="id-82eb6fa1577942c2adea20baecd401a3" type="strategy"/>
+  <folder name="Business" id="id-2b9d07f0152749e5ad795105e6be66dd" type="business"/>
+  <folder name="Application" id="id-f4c72f64c34c4091842b50d7d70dc080" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-a3574a1e327a4ad78bd18713e76e4c85" type="technology">
+    <element xsi:type="archimate:Node" name="Node: Servidor de aplicação" id="id-1208d76ac9f144f7b5da06cdcc7140b2"/>
+    <element xsi:type="archimate:SystemSoftware" name="OS: Linux" id="id-a5f85ca936994cecaf65b0b786a8cf32"/>
+    <element xsi:type="archimate:SystemSoftware" name="OS: Java" id="id-5f3734598c154e2d9ec620dfa477a2e3"/>
+    <element xsi:type="archimate:Device" name="Device" id="id-6e7462b0e02f4786b3ad6d2beee82b28"/>
+    <element xsi:type="archimate:Node" name="Node: Aplicação DB" id="id-5334670ea3ef4d4f8e5d947a3d828b83"/>
+    <element xsi:type="archimate:SystemSoftware" name="OS: Linux" id="id-51da46e42e964cafbe06054415fbb8de"/>
+    <element xsi:type="archimate:SystemSoftware" name="OS: SQL Developer" id="id-894b738f8ff748989828d6f257b09f82"/>
+  </folder>
+  <folder name="Motivation" id="id-b9ae794b7107495297d976b9214c6d44" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Stakeholder: gestão do Patio mottu" id="id-6cb0ac851e8f42e7a2d97d3ed08e6c4e"/>
+    <element xsi:type="archimate:Driver" name="Driver: Diminuir tempo para a localizão de motos  que estão no patio" id="id-4b640de2e8454afc81ce2e08a80eae31"/>
+    <element xsi:type="archimate:Goal" name="Goal: identiicar motos especificas atraves de sistemas simples e intuitvo" id="id-f6116d4207fd46f9a06a8ba2ad71e90c"/>
+    <element xsi:type="archimate:Assessment" name="Assessment: Alta concentração de motos detro ds patios" id="id-c9a17a14858344eab792f8ab9d4ad686"/>
+    <element xsi:type="archimate:Assessment" name="Assessment: Não a nenhum dispositivo qe organize a entrada e saida das motos entro da patio" id="id-4c3e767717534e06b8fd0ba1778dd411"/>
+    <element xsi:type="archimate:Constraint" name="Constraint: Solução deve ser feita utilizando dispositivo IOT" id="id-6a3d57c5dc3d4615bb9f08c626010a68"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-67a38a1473da418586d2c6d7dc0a87b5" type="implementation_migration"/>
+  <folder name="Other" id="id-ba65b835078943b7a1d4b7a129b71603" type="other"/>
+  <folder name="Relations" id="id-00b45823a5b74f069e3b2f72182b1778" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="id-079096d340554144b2155732031a34d4" source="id-1208d76ac9f144f7b5da06cdcc7140b2" target="id-a5f85ca936994cecaf65b0b786a8cf32"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-794e7b4ef6664426bddda0d337a96280" source="id-5334670ea3ef4d4f8e5d947a3d828b83" target="id-51da46e42e964cafbe06054415fbb8de"/>
+  </folder>
+  <folder name="Views" id="id-74ed762d3d3d4267b255d8e46d17a1d1" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-fcd4df9d26af497282f5dfe4af4f8d8f">
+      <child xsi:type="archimate:DiagramObject" id="id-d09b042c74d54994abe3522f6dc22d31" archimateElement="id-6cb0ac851e8f42e7a2d97d3ed08e6c4e">
+        <bounds x="359" y="108" width="145" height="85"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-640c5828a4b8442894e458fa3ecc5b31" archimateElement="id-4b640de2e8454afc81ce2e08a80eae31">
+        <bounds x="156" y="220" width="166" height="81"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d5048f43a3da4d0ebef02e05c3936d6c" archimateElement="id-f6116d4207fd46f9a06a8ba2ad71e90c">
+        <bounds x="347" y="312" width="169" height="74"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b73b8877d0e4469f9656515a1804daec" archimateElement="id-c9a17a14858344eab792f8ab9d4ad686">
+        <bounds x="540" y="233" width="169" height="56"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0daf37f7bde64d738c3dd813103d2f7a" archimateElement="id-1208d76ac9f144f7b5da06cdcc7140b2">
+        <bounds x="672" y="588" width="130" height="204"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-0f21acf6cd234389a9827c01476c6e82" source="id-0daf37f7bde64d738c3dd813103d2f7a" target="id-0a16801ddfb24eb69bbe62f3666f4e42" archimateRelationship="id-079096d340554144b2155732031a34d4"/>
+        <child xsi:type="archimate:DiagramObject" id="id-0a16801ddfb24eb69bbe62f3666f4e42" targetConnections="id-0f21acf6cd234389a9827c01476c6e82" archimateElement="id-a5f85ca936994cecaf65b0b786a8cf32">
+          <bounds x="12" y="48" width="105" height="40"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f1fe916c75f641f397b1284e8e8b81a6" archimateElement="id-5f3734598c154e2d9ec620dfa477a2e3">
+          <bounds x="12" y="87" width="105" height="40"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-3dcc5bfefc0c4d7fb5082cda836e58f3" archimateElement="id-5334670ea3ef4d4f8e5d947a3d828b83">
+        <bounds x="386" y="612" width="130" height="156"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2219ba2ed96d4313b83d3f3fbbca2789" source="id-3dcc5bfefc0c4d7fb5082cda836e58f3" target="id-270d1085ad114a1589f307cac3e46704" archimateRelationship="id-794e7b4ef6664426bddda0d337a96280"/>
+        <child xsi:type="archimate:DiagramObject" id="id-270d1085ad114a1589f307cac3e46704" targetConnections="id-2219ba2ed96d4313b83d3f3fbbca2789" archimateElement="id-51da46e42e964cafbe06054415fbb8de">
+          <bounds x="12" y="48" width="105" height="40"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3abf5694228c4dd5a5a19bff311c7fb2" archimateElement="id-894b738f8ff748989828d6f257b09f82">
+          <bounds x="12" y="87" width="105" height="40"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-656d3b5aaac04a6b8575ebaf02514367" archimateElement="id-4c3e767717534e06b8fd0ba1778dd411">
+        <bounds x="96" y="408" width="190" height="85"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-fa9f87eb2e954b55a25bbae6d7f7de32" archimateElement="id-6a3d57c5dc3d4615bb9f08c626010a68">
+        <bounds x="538" y="481" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
