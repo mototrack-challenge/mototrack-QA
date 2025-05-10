@@ -11,6 +11,7 @@
     <element xsi:type="archimate:Node" name="Node: Aplicação DB" id="id-5334670ea3ef4d4f8e5d947a3d828b83"/>
     <element xsi:type="archimate:SystemSoftware" name="OS: Linux" id="id-51da46e42e964cafbe06054415fbb8de"/>
     <element xsi:type="archimate:SystemSoftware" name="OS: SQL Developer" id="id-894b738f8ff748989828d6f257b09f82"/>
+    <element xsi:type="archimate:SystemSoftware" name="OS: .NET" id="id-2579ee647e2547c192ed5b68d1129777"/>
   </folder>
   <folder name="Motivation" id="id-b9ae794b7107495297d976b9214c6d44" type="motivation">
     <element xsi:type="archimate:Stakeholder" name="Stakeholder: gestão do Patio mottu" id="id-6cb0ac851e8f42e7a2d97d3ed08e6c4e"/>
@@ -48,6 +49,9 @@
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f1fe916c75f641f397b1284e8e8b81a6" archimateElement="id-5f3734598c154e2d9ec620dfa477a2e3">
           <bounds x="12" y="87" width="105" height="40"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2b2607cebbc14bb6b0750cb63f0f6ddb" archimateElement="id-2579ee647e2547c192ed5b68d1129777">
+          <bounds x="12" y="126" width="105" height="40"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-3dcc5bfefc0c4d7fb5082cda836e58f3" archimateElement="id-5334670ea3ef4d4f8e5d947a3d828b83">
