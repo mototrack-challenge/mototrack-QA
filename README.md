@@ -1,9 +1,9 @@
-🛵 MotoTrack - Sistema de Monitoramento de Motocicletas para a Mottu
+🛵 ##MotoTrack - Sistema de Monitoramento de Motocicletas para a Mottu
 
-📌 Sobre o Projeto
+📌 #Sobre o Projeto
 O MotoTrack é uma solução tecnológica desenvolvida para otimizar o gerenciamento de frotas de motocicletas da empresa Mottu, referência no aluguel de motos. O projeto propõe um sistema inteligente de rastreamento e controle que visa substituir processos manuais por automação com o uso de IoT, QR Code e interfaces web integradas via API.
 
-🚨 Problema
+🚨 #Problema
 Atualmente, a Mottu enfrenta:
 
 Registros imprecisos e manuais;
@@ -14,7 +14,7 @@ Falta de controle sobre o tempo de permanência nos setores (ex: manutenção, a
 
 Redução da eficiência e aumento de retrabalho.
 
-✅ Objetivos do MotoTrack
+✅ #Objetivos do MotoTrack
 Automatizar a identificação e rastreamento das motos nos pátios;
 
 Desenvolver um dashboard web com dados em tempo real;
@@ -23,7 +23,7 @@ Reduzir falhas humanas e aumentar a eficiência operacional;
 
 Permitir fácil adaptação e escalabilidade da solução para outras filiais.
 
-⚙️ Como Funciona
+⚙️ #Como Funciona
 A arquitetura do MotoTrack é dividida em três camadas:
 
 Leitura e Identificação
@@ -44,7 +44,7 @@ Localização por setor (entrada, manutenção, pronta, saída, etc.);
 
 Alertas para motos paradas por muito tempo.
 
-🧪 MVP - Produto Mínimo Viável
+🧪 #MVP - Produto Mínimo Viável
 O MVP entrega:
 
 Simulação de leitura de QR Code;
@@ -55,7 +55,7 @@ Dashboard com filtros por placa/modelo/status;
 
 Visualização em tempo real e linha do tempo dos eventos.
 
-🚀 Tecnologias Utilizadas
+🚀 #Tecnologias Utilizadas
 Frontend: HTML, CSS, JavaScript (React opcional)
 
 Backend/API: Node.js, Express ou similar
@@ -64,7 +64,7 @@ Hardware: ESP32 (ou smartphone com câmera)
 
 Outros: QR Code, HTTP requests, banco de dados
 
-📈 Benefícios Esperados
+📈 #Benefícios Esperados
 Redução de falhas e retrabalhos;
 
 Maior controle e organização das frotas;
@@ -73,13 +73,13 @@ Decisões baseadas em dados;
 
 Padronização dos processos nos pátios.
 
-🔗 Link do Repositório
+🔗 #Link do Repositório
 https://github.com/mototrack-challenge/mototrack-QA
 
-🧩 Diagrama de Arquitetura
+🧩 #Diagrama de Arquitetura
 (Inserir aqui imagem ou link do diagrama Archimate, caso aplicável)
 
-👨‍💻 Equipe
+👨‍💻 #Equipe
 Vinicius Ribeiro Nery Costa – RM: 559165
 
 Felipe Ulson Sora – RM: 555462
