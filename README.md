@@ -70,14 +70,6 @@ O MVP entrega:
 
 ---
 
-## 🧩 Diagrama de Arquitetura
-
-> *[Diagrama Archimate](‪Diagrama.png)*
-
-
-
----
-
 ## 🏁 Conclusão
 
 O MotoTrack moderniza o processo de controle de motos da Mottu, trazendo eficiência, confiabilidade e escalabilidade.  
