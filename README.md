@@ -53,17 +53,6 @@ O MVP entrega:
 - Dashboard com filtros por placa/modelo/status;
 - Visualização em tempo real e linha do tempo dos eventos.
 
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **Frontend:** HTML, CSS, JavaScript (React opcional)  
-- **Backend/API:** Node.js, Express ou similar  
-- **Hardware:** ESP32 (ou smartphone com câmera)  
-- **Outros:** QR Code, HTTP requests, banco de dados
-
----
-
 ## 📈 Benefícios Esperados
 
 - Redução de falhas e retrabalhos;
