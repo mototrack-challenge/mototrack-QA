@@ -1,5 +1,13 @@
 # 🛵 MotoTrack - Sistema de Monitoramento de Motocicletas para a Mottu
 
+---
+
+## 👨‍💻 Equipe
+
+- **Vinicius Ribeiro Nery Costa** – RM: 559165  
+- **Felipe Ulson Sora** – RM: 555462  
+- **Augusto Lopes Lyra** – RM: 558209  
+
 ## 📌 Sobre o Projeto
 
 O **MotoTrack** é uma solução tecnológica desenvolvida para otimizar o gerenciamento de frotas de motocicletas da empresa **Mottu**, referência no aluguel de motos. O projeto propõe um sistema inteligente de rastreamento e controle que visa substituir processos manuais por automação com o uso de **IoT**, **QR Code** e **interfaces web integradas** via API.
@@ -62,23 +70,11 @@ O MVP entrega:
 
 ---
 
-## 🔗 Link do Repositório
-
-[https://github.com/mototrack-challenge/mototrack-QA](https://github.com/mototrack-challenge/mototrack-QA)
-
----
-
 ## 🧩 Diagrama de Arquitetura
 
 > *(Inserir aqui imagem ou link do diagrama Archimate, caso aplicável)*
 
----
 
-## 👨‍💻 Equipe
-
-- **Vinicius Ribeiro Nery Costa** – RM: 559165  
-- **Felipe Ulson Sora** – RM: 555462  
-- **Augusto Lopes Lyra** – RM: 558209  
 
 ---
 
