@@ -72,7 +72,7 @@ O MVP entrega:
 
 ## 🧩 Diagrama de Arquitetura
 
-> *[Diagrama Archimate](‪C:\Users\VN\Desktop\Diagrama.png)*
+> *[Diagrama Archimate](‪Diagrama.png)*
 
 
 
