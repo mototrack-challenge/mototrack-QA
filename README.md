@@ -11,6 +11,7 @@ O sistema automatiza processos de controle, rastreamento e manutenção, utiliza
 - **Augusto Lopes Lyra** – RM: 558209  
 
  **Azure DevOps:** [https://dev.azure.com/RM559165/MotoTrack](https://dev.azure.com/RM559165/MotoTrack)
+**Links Video de Testes Automatizados:**[https://youtu.be/roAIqkIDoOY](https://youtu.be/roAIqkIDoOY)
 
 ---
 
