@@ -8,6 +8,9 @@
 - **Felipe Ulson Sora** – RM: 555462  
 - **Augusto Lopes Lyra** – RM: 558209  
 
+##Links
+Azure Devops: https://dev.azure.com/RM559165/MotoTrack
+
 ## 📌 Sobre o Projeto
 
 O **MotoTrack** é uma solução tecnológica desenvolvida para otimizar o gerenciamento de frotas de motocicletas da empresa **Mottu**, referência no aluguel de motos. O projeto propõe um sistema inteligente de rastreamento e controle que visa substituir processos manuais por automação com o uso de **IoT**, **QR Code** e **interfaces web integradas** via API.
