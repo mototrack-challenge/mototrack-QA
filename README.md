@@ -12,8 +12,6 @@ O sistema automatiza processos de controle, rastreamento e manutenção, utiliza
 
 🔗 **Azure DevOps:** [https://dev.azure.com/RM559165/MotoTrack](https://dev.azure.com/RM559165/MotoTrack)
 
-Código com teste unitarios na Branch Develop
-
 ---
 
 ## 📌 Sobre o Projeto
