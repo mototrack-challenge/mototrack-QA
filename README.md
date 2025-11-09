@@ -1,82 +1,123 @@
-# 🛵 MotoTrack - Sistema de Monitoramento de Motocicletas para a Mottu
+# 🛵 MotoTrack - Sistema de Monitoramento de Motocicletas para Mottu
+
+**MotoTrack** é uma solução tecnológica desenvolvida para otimizar o gerenciamento da frota de motocicletas da **Mottu**, empresa referência em aluguel de motos.  
+O sistema automatiza processos de controle, rastreamento e manutenção, utilizando IoT, QR Code e uma interface web integrada via API.
 
 ---
 
-## 👨‍💻 Equipe
-
+## 👨‍💻 Equipe de Desenvolvimento
 - **Vinicius Ribeiro Nery Costa** – RM: 559165  
 - **Felipe Ulson Sora** – RM: 555462  
-- **Augusto Lopes Lyra** – RM: 558209
-  
----
+- **Augusto Lopes Lyra** – RM: 558209  
 
-## Links
-Azure Devops: https://dev.azure.com/RM559165/MotoTrack
+🔗 **Azure DevOps:** [https://dev.azure.com/RM559165/MotoTrack](https://dev.azure.com/RM559165/MotoTrack)
 
 ---
 
 ## 📌 Sobre o Projeto
+O **MotoTrack** foi criado para substituir processos manuais e imprecisos de controle de frota, oferecendo rastreamento em tempo real, controle de permanência em setores e maior eficiência operacional.
 
-O **MotoTrack** é uma solução tecnológica desenvolvida para otimizar o gerenciamento de frotas de motocicletas da empresa **Mottu**, referência no aluguel de motos. O projeto propõe um sistema inteligente de rastreamento e controle que visa substituir processos manuais por automação com o uso de **IoT**, **QR Code** e **interfaces web integradas** via API.
+### 🚨 Problemas Identificados
+- Registros manuais e suscetíveis a erro;  
+- Dificuldade de rastreamento em tempo real;  
+- Falta de controle sobre o tempo de permanência das motos;  
+- Retrabalho e baixa eficiência.
 
----
-
-## 🚨 Problema
-
-Atualmente, a Mottu enfrenta:
-
-- Registros imprecisos e manuais;
-- Dificuldade no rastreamento em tempo real das motocicletas;
-- Falta de controle sobre o tempo de permanência nos setores (ex: manutenção, avaliação, etc.);
-- Redução da eficiência e aumento de retrabalho.
-
----
-
-## ✅ Objetivos do MotoTrack
-
-- Automatizar a identificação e rastreamento das motos nos pátios;
-- Desenvolver um **dashboard web** com dados em tempo real;
-- Reduzir falhas humanas e aumentar a eficiência operacional;
-- Permitir fácil adaptação e escalabilidade da solução para outras filiais.
+### ✅ Objetivos
+- Automatizar identificação e rastreamento das motos;  
+- Criar dashboard web com dados em tempo real;  
+- Reduzir falhas humanas;  
+- Facilitar a escalabilidade da solução para outras filiais.
 
 ---
 
-## ⚙️ Como Funciona
+## ⚙️ Arquitetura do Sistema
+1. **Leitura e Identificação:**  
+   Dispositivos (ESP32 ou smartphones) realizam leitura de QR Codes fixados nas motos.  
+   Dados coletados: *ID, placa e modelo.*
 
-A arquitetura do MotoTrack é dividida em três camadas:
+2. **Comunicação com API:**  
+   Eventos como entrada, saída e manutenção são enviados via requisições HTTP.
 
-### 1. Leitura e Identificação  
-- Dispositivos com câmera (ex: ESP32 ou smartphones) realizam leitura de QR Codes fixados nas motos.  
-- Dados do QR Code: ID, placa, modelo.
-
-### 2. Comunicação com API  
-- Eventos como entrada, saída e movimentação são enviados via requisições HTTP.
-
-### 3. Dashboard Web  
-- Exibe o histórico das movimentações;  
-- Localização por setor (entrada, manutenção, pronta, saída, etc.);  
-- Alertas para motos paradas por muito tempo.
+3. **Painel Web:**  
+   Exibe histórico de movimentações, status por setor e alertas automáticos.
 
 ---
 
 ## 🧪 MVP - Produto Mínimo Viável
-
-O MVP entrega:
-
-- Simulação de leitura de QR Code;
-- Integração com API para registrar movimentações;
-- Dashboard com filtros por placa/modelo/status;
-- Visualização em tempo real e linha do tempo dos eventos.
-
-## 📈 Benefícios Esperados
-
-- Redução de falhas e retrabalhos;
-- Maior controle e organização das frotas;
-- Decisões baseadas em dados;
-- Padronização dos processos nos pátios.
+O MVP inclui:
+- Simulação de leitura de QR Code;  
+- Integração com API de movimentações;  
+- Dashboard com filtros por placa, modelo e status;  
+- Visualização em tempo real e linha do tempo de eventos.
 
 ---
 
-## 🏁 Conclusão
+## 📈 Benefícios Esperados
+- Redução de falhas e retrabalhos;  
+- Controle e organização aprimorados;  
+- Decisões baseadas em dados;  
+- Padronização de processos nos pátios.
 
-O MotoTrack moderniza o processo de controle de motos da Mottu, trazendo eficiência, confiabilidade e escalabilidade.  
+---
+
+## 🧩 Estrutura do Projeto
+- **src/main/java** → Código-fonte das classes de serviço (`MotoService`, `EstoqueService`, etc.)  
+- **src/test/java** → Testes unitários JUnit (`MotoServiceTest`, `EstoqueServiceTest`, etc.)  
+- **pom.xml** → Gerenciamento de dependências e build via Maven  
+- **README.md** → Documentação principal do projeto
+
+---
+
+## 🧰 Requisitos do Ambiente
+- **Java JDK 17+**  
+- **Apache Maven 3.6+**  
+- **Git** (para versionamento e clonagem)
+
+Verifique as versões instaladas:
+```bash
+java -version
+mvn -v
+🧭 Como Rodar o Projeto
+Abaixo está o passo a passo completo para rodar o MotoTrack localmente e validar os testes unitários.
+
+🔹 1. Clonar o Repositório
+bash
+Copiar código
+git clone https://github.com/seu-usuario/mototrack.git
+cd mototrack
+🔹 2. Criar ou Alternar para a Branch “develop”
+bash
+Copiar código
+git fetch origin
+git checkout -b develop origin/develop || git checkout -b develop
+🔹 3. Compilar o Projeto
+bash
+Copiar código
+mvn clean compile
+Esse comando compila todas as classes da aplicação e valida o pom.xml.
+
+🔹 4. Executar Todos os Testes
+bash
+Copiar código
+mvn test
+O Maven executará automaticamente todos os testes JUnit localizados em src/test/java.
+
+🔹 5. Executar Testes Específicos
+Rodar apenas uma classe de teste:
+
+bash
+Copiar código
+mvn -Dtest=MotoServiceTest test
+Rodar apenas um método de teste:
+
+bash
+Copiar código
+mvn -Dtest=MotoServiceTest#deveCadastrarMotoComSucesso test
+📊 Relatórios de Testes
+Após rodar mvn test, os relatórios são gerados automaticamente em:
+
+bash
+Copiar código
+target/surefire-reports/
+Esses arquivos (.txt, .xml) contêm o resumo de cada teste executado.
