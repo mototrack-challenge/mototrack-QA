@@ -6,10 +6,14 @@
 
 - **Vinicius Ribeiro Nery Costa** – RM: 559165  
 - **Felipe Ulson Sora** – RM: 555462  
-- **Augusto Lopes Lyra** – RM: 558209  
+- **Augusto Lopes Lyra** – RM: 558209
+  
+---
 
-##Links
+## Links
 Azure Devops: https://dev.azure.com/RM559165/MotoTrack
+
+---
 
 ## 📌 Sobre o Projeto
 
